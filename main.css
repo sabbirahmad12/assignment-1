@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.container {
+    margin: 30px 140px;
+    background-color: #1E1E1E;
+    color: aliceblue;
+}
+
+
+/*nav section start here*/
+.navigation-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-title h1 {
+    font-family: "poppins", sans-serif; font-weight: 700;
+    font-size: 32px;
+    color: var(--logo-color);
+}
+.list-items-section {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.list-items {
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+.list-items a {
+    font-family: "Rubik", sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
+.nav-button {
+    background-color: #FD6F00;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+/*nav section end here*/
+
+/* banner section start here */
+.banner-text-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-title-section h1 {
+    font-size: 40px;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+}
+.banner-title {
+    color: var(--logo-color);
+}
+.banner-title-section h2 {
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    color: #FFFFFF80;
+
+}
+.banner-title-buttom {
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    gap:20px;
+}
+.banner-title-section h3 {
+    font-size: 24px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+}
+.parent-protfolio-butom {
+    margin-top: 40px;
+    border: 2px solid rgb(183, 177, 177);
+    background-color: #343434;    
+    width: 370px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap:30px;
+    padding: 10px;
+    border-radius: 50px;
+    justify-content: space-between;
+}
+.protfolio-buttom-container {
+    border: 2px solid white;
+    background-color: var(--logo-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+.protfolio-buttom-container h3 {
+    font-weight: 400;
+    margin: 10px;
+}
+.porfolio-icon {
+    width: 25px;
+    height: 25px;
+}
+.hire-me h3 {
+    padding: 0 40px;
+}
+.social-icon-parent {
+    margin-top: 20px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+.social-media-icon i {
+    color: #FFFFFF80;
+}
+.banner-image img {
+    width: 700px;
+}
+
+/* banner section end here */
+
+/* optional section start here */
+
+.optional {
+    font-family: Rubik;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37.92px;
+    letter-spacing: -0.015em;
+    gap: 20px;
+    background:#000000;
+    margin:calc(-1*234px);
+    margin-top: -80px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 42px 0px 42px 0px;
+    rotate: -3.97deg;
+}
+/* optional section end here */
+
+
+/* about section start here */
+.about-me-container {
+    display: flex;
+    margin-top: 140px;
+    align-items: center;
+}
+.about-me-left {
+    width: 60%;
+}
+.about-title p {
+    color: #FFFFFF80;
+
+}
+.about-me-right {
+    text-align: right;
+    width: 40%;
+}
+
+
+/* .about-title{
+    text-align: right;
+} */
+
+
+
+.about-title h1{
+    font-size: 40px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+}
+.about-title h2{
+    font-size: 47px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+.about-title h3{
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    
+}
+.about-title p {
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+}
+/* about section end here */
+/* experience section start here */
+
+.experience-container{
+    background:linear-gradient(45deg,#220d2e,
+    #372710);
+    margin:calc(-1*134px);
+    margin-top: 40px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    
+}
+
+.exp-padding{
+    margin: 20px 134px;
+}
+
+.full-exp-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0;
+    padding: 40px 0;
+    
+}
+
+.experience-left{
+    width: 30%;
+}
+
+.experience-left h3{
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+.experience-left h1{
+    font-size: 40px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    /* margin: 0; */
+}
+.experience-left p{
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    
+}
+.experience-right{
+    width: 40%;
+    
+}
+.full-exp-rt-top{
+    border-bottom: 1px solid rgb(110, 104, 104);
+}
+.exp-rt-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.exp-rt-top h1{
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.exp-rt-top h2{
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;    
+}
+.exp-title{
+    margin:0 ;
+}
+.exp-title h1{
+    font-size: 32px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    margin-top:0;
+}
+
+/* experience section end here */
+
+/* award section start here */
+.award-middle{
+    display: flex;    
+    padding: 20px 80px;
+    background-color: black;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.award-up h1{
+    font-size: 40px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+.award-up p{
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF80;
+
+}
+.best-mobile h1{
+    font-size: 24px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+}
+.award-desc p{
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    color: #FFFFFF80;
+}
+.award-right h2{
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    text-align: right;
+}
+
+.award-left{
+    width: 70%;
+}
+.award-right{
+    width: 30%;
+}
+
+/* award section end here */
+/* protfolio section start here */
+.portfolio-icon{
+    display: flex;
+    gap:20px;
+    justify-content: space-evenly;
+    
+}   
+.port-ui{    
+    background-color: black;
+    padding: 7px 20px;
+    border-radius: 10px;
+    
+}
+.port-web{
+    background-color: var(--logo-color);
+    padding: 7px 20px;
+    border-radius: 10px;
+}
+
+.port-ui span{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+      
+}
+.port-web span{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;  
+      
+}
+.banner-photo img{
+    width: 500px;
+    border-radius: 15px;
+}
+
+.portfolio-banner-container{
+    margin-top: 60px;
+    display: flex;
+    gap:40px;
+    justify-content: space-evenly;
+
+
+}
+
+.banner-desc h2{
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+.banner-desc h1{
+    font-size: 40px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+}
+.banner-desc p{
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    color: #FFFFFF80;
+}
+/* protfolio section end here */
+/* contact section start here*/
+.contact-container{
+    margin-top: 200px;
+}
+
+.contact-head{
+    text-align: center;
+    
+}
+
+.contact-head h2{
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600; 
+    font-style: italic;
+}
+.contact-head h1{
+    font-size: 40px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700; 
+    margin-top: 0;
+    
+}
+.contact-brown{
+    width: 100%;
+    height: 650px;
+    display: flex;         
+    background-color: rgb(62, 32, 8);
+    border-radius: 15px;
+   
+}
+
+.contact-info{
+    width: 80%;
+    height: 500px;
+    margin: 70px auto;
+    
+}
+.contact-title{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    width: 260px;
+    border-bottom: 2px solid white;
+    padding: 30px 0px;
+    
+}
+.email{
+    width: 260px;
+    border-bottom: 2px solid white;
+    padding: 30px 0px;
+
+    
+}
+
+.attach{
+    width: 100%;
+    border-top: 2px solid white;
+    padding: 15px 0px;
+    display: flex;
+    
+}
+
+.contact-title h1{
+    font-size: 40px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700; 
+}
+.name, .email, .message, .attach{
+    margin: 40px 0;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+}
+.attach-icon{
+    width: 20px;
+    
+}
+.submit{
+    font-family: "Rubik", sans-serif;
+    width:200px;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--logo-color);
+    border-radius: 10px;
+}
+/* contact section end here*/
+/* footer section start here */
+.footer-container{
+    height: 500px;
+    background-color: black;
+    margin:calc(-1*234px);
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.footer-flex{
+    display: flex;
+    gap:35px;
+    justify-content: space-between;
+    margin: 60px 300px;
+    
+}
+
+.footer-logo h1{
+    font-family: "Poppins", sans-serif; font-weight: 700;
+    font-size: 60px;
+    color: var(--logo-color);
+    text-align: center;
+    padding: 70px 0px;
+}
+.footer-bar h1{
+    font-size: 26px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    
+}
+.footer-icon{
+    text-align: center;
+    
+}
+.footer-icon i{
+    color: white;
+    font-size: 35px;
+    width: 55px;   
+}
+.right-reserve {
+    background: #121212;
+    margin: -100px -310px;
+    height: 90px;
+
+}
+.rights h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 21px; 
+    text-align: center;
+    padding: 25px 0px;
+
+}
+
+/* footer section end here  */
+
+
+
+

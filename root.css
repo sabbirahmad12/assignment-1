@@ -1,0 +1,14 @@
+:root{
+    --logo-color:#FD6F00;
+    
+}
+
+
+*{
+    
+    color:white;
+    
+}
+.container{
+    background-color: #1e1e1e;
+}

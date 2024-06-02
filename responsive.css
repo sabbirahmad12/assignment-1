@@ -1,0 +1,302 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+
+/* navbar start here */
+.logo-title h1 {
+    font-family: "Poppins", sans-serif; font-weight: 700;
+    font-size: 32 px;
+    color:var(--logo-color);
+    text-align: center;
+    margin: 0 0;
+
+}
+.navigation-section{
+    display: flex;    
+    flex-direction: column;
+}
+.list-items-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+/* navbar end here */
+/* banner section start here */
+.banner-text-container {
+    display: flex;
+    flex-direction: column;
+}
+.banner-title-section h1 {
+    font-size: 30px;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.title-star img {
+    width: 20px;
+}
+.banner-title-section h2 {
+    font-size: 12px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.banner-title-buttom {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 200;
+    gap:10px;
+}
+.banner-title-buttom img {
+    width: 20px;
+}
+.align-buttom {
+    display: flex;
+    justify-content: space-evenly;
+}
+.parent-protfolio-butom {
+    text-align: right;
+    align-items: center;
+    width: 270px;
+    height: 40px;
+}
+.protfolio-buttom-container h3 {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0px;
+}
+.hire-me h3 {
+    font-size: 18px;
+    padding: 0 0px;
+    margin: 10px;
+}
+.banner-image img {
+    width: 300px;
+}
+
+/* banner section end here */
+
+/* about me start here*/
+
+.about-me-container {
+    display: flex;
+    margin-top: 140px;
+    align-items: center;
+}
+.about-me-left {
+    width: 100%;
+}
+.about-me-right{
+    text-align: center;
+    width: 100%
+}
+.about-title h1 {
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+}
+.about-title h2{
+    font-size: 22px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+.about-title h3{
+    font-size: 12px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    
+}
+.about-title p{
+    font-size: 10px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+}
+/* about me end here*/
+/* experience start here*/
+.full-exp-container {
+    display: flex;
+    flex-direction: column;
+}
+.experience-left{
+    width: 100%;
+}
+.experience-right{
+    width: 100%;
+}
+.experience-left h3{
+    font-size: 12px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+.experience-left h1{
+    font-size: 23px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    /* margin: 0; */
+}
+.experience-left p{
+    font-size: 10px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+}
+.exp-rt-top h1{
+    font-size: 12px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.exp-rt-top h2{
+    font-size: 10px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;    
+}
+
+.exp-title h1{
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    margin-top:0;
+}
+
+/* experience end here*/
+/* award section start here*/
+.best-mobile h1{
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+}
+.award-middle{
+    display: flex; 
+    flex-direction: column;   
+    padding: 20px 20px;
+    align-items: center;
+    text-align: center;
+}
+.award-right h2{
+    font-size: 12px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.award-desc p{
+    font-size: 12px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+}
+/* award section end here*/
+/* protfolio section start here*/
+.portfolio-icon{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.port-ui span{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;  
+      
+}
+.port-web span{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;  
+      
+}
+.portfolio-banner-container{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;    
+}
+/* protfolio section end here*/
+/* contact section start here*/
+.contact-brown{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column
+}
+.contact-title{
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    width: 200px;
+    border-bottom: 2px solid white;
+    
+}
+.email{
+    width: 200px;
+    border-bottom: 2px solid white;
+    
+}
+.contact-head h1{
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700; 
+    margin-top: 0;
+    
+}
+.contact-title h1{
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+}
+.name, .email, .message, .attach{
+    margin: 40px 0;
+    font-size: 12px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+}
+
+
+/* contact section end here*/
+/* footer section start here */
+.footer-container{
+    display: flex;
+    flex-direction: column;  
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.footer-flex{
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+    justify-content: space-between;
+    margin: 0px 0px;
+    text-align: center;
+    
+}
+.footer-logo h1{
+    font-family: "Poppins", sans-serif; font-weight: 700;
+    font-size: 40px;
+    color:var(--logo-color);
+    text-align: center;
+}
+.footer-bar h1{
+    font-size: 14px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+}
+.footer-icon i{
+    color: white;
+    font-size: 20px;
+    
+}
+.rights h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px; 
+    text-align: center;
+    margin-top: 60px;
+
+}
+/* footer section end here */
+}
